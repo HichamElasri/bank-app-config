@@ -1,13 +1,6 @@
 server:
   port: 5005
 
-web:
-  cors:
-    allowed-origins: "http://localhost:3000"
-    allowed-methods: GET, POST, PATCH, PUT, DELETE, OPTIONS, HEAD
-    max-age: 3600
-    allowed-headers: "*"
-
 spring:
   data:
     mongodb:
