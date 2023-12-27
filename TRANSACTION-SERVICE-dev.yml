@@ -40,7 +40,7 @@ spring:
               packages: '*'
 
 services:
-  customer-service:
+  account-service:
     url: "http://localhost:5006/account-service/v1/accounts"
 
 eureka:
