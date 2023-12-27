@@ -41,7 +41,7 @@ spring:
 
 services:
   account-service:
-    url: "http://localhost:5009/account-service/v1/accounts"
+    url: "http://localhost:5006/account-service/v1/accounts"
 
 eureka:
   instance:
