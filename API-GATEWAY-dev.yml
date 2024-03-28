@@ -1,0 +1,51 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: 
+  cloud:
+    gateway:
+      routes:
+        - id: CUSTOMER-SERVICE
+          uri: lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/customer-service/v1/customers/**
+        - id: ACCOUNT-SERVICE
+          uri: lb://ACCOUNT-SERVICE
+          predicates:
+            - Path=/account-service/v1/accounts/**
+        - id: TRANSACTION-SERVICE
+          uri: lb://TRANSACTION-SERVICE
+          predicates:
+            - Path=/transaction-service/v1/transactions/**
+        - id: AUTH-SERVICE
+          uri: http://localhost:9090
+          filters:
+            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+          predicates:
+            - Path=/realms/**
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9090/realms/bank-app
+          jwk-set-uri: http://localhost:9090/realms/bank-app/protocol/openid-connect/certs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  instance:
+    client:
+      server-url:
+        default-zone: http://localhost:8761/eureka/
