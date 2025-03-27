@@ -38,6 +38,11 @@ spring:
           json:
             trusted:
               packages: '*'
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:9090/realms/bank-app/protocol/openid-connect/certs            
 
 services:
   customer-service:
