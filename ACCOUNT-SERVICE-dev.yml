@@ -6,7 +6,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: AccountReadDatabase
+      database: account_read_dev
       username: root
       password: root
   jpa:
@@ -15,7 +15,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:postgresql://localhost:5432/AccountEventStore
+    url: jdbc:postgresql://localhost:5432/account_events_store_dev
     initialization-mode: always
     platform: postgres
     username: root
