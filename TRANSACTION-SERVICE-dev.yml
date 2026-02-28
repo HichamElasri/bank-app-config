@@ -43,7 +43,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: http://localhost:9090/realms/bank-app/protocol/openid-connect/certs              
+          jwk-set-uri: http://localhost:9090/realms/e-bank-dev/protocol/openid-connect/certs              
 
 services:
   account-service:
