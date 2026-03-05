@@ -58,9 +58,9 @@
 
 ## <a name="demo">🎥 Demo</a>
 
-<img src="./src/assets/demo-e-bank-1.5_720.gif" width="800px" />
-<img src="./src/assets/demo-e-bank-1.5_v1.gif" width="800px" />
-<img src="./src/assets/demo-e-bank-1.5.gif" width="800px" />
+<img src="./assets/demo-e-bank-1.5_720.gif" width="800px" />
+<img src="./assets/demo-e-bank-1.5_v1.gif" width="800px" />
+<img src="./assets/demo-e-bank-1.5.gif" width="800px" />
 
 ## <a name="features">✨ Features</a>
 
