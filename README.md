@@ -3,8 +3,9 @@
   <img src="./assets/e-bank-logo.png" width="400px" />
 </p>
 <p align="center">
-  [![React](https://img.shields.io/badge/React-^19.1.0-61dafb?logo=react&logoColor=white)](https://reactjs.org)
-
+  <a  href="https://reactjs.org" title="React">
+    <img src="https://img.shields.io/badge/React-^19.1.0-61dafb?logo=react&logoColor=white"/>
+  </a>
   <a href="https://www.typescriptlang.org" title="TypeScript">
     <img src="https://img.shields.io/badge/TypeScript-~5.8.3-3178c6?logo=typescript&logoColor=white"/>
   </a>
