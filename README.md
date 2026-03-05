@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img src="./assets/e-bank-logo.png" width="600px" />
+  <img src="./assets/e-bank-logo.png" width="400px" />
 </p>
 <p align="center">
   <a  href="https://reactjs.org" title="React">
@@ -58,7 +58,7 @@
 
 ## <a name="demo">🎥 Demo</a>
 
-<img src="./assets/demo-e-bank-1.5.gif" width="800px" />
+<img src="./assets/demo-e-bank-1.5.gif"  />
 
 ## <a name="features">✨ Features</a>
 
