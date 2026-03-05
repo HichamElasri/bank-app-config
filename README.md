@@ -2,44 +2,23 @@
   <br />
   <img src="./assets/e-bank-logo.png" width="400px" />
 </p>
-<p align="center">
-  <a  href="https://reactjs.org" title="React">
-    <img src="https://img.shields.io/badge/React-^19.1.0-61dafb?logo=react&logoColor=white"/>
-  </a>
-  <a href="https://www.typescriptlang.org" title="TypeScript">
-    <img src="https://img.shields.io/badge/TypeScript-~5.8.3-3178c6?logo=typescript&logoColor=white"/>
-  </a>
-  <a href="https://vitejs.dev" title="Vite">
-    <img src="https://img.shields.io/badge/Vite-^6.3.5-646cff?logo=vite&logoColor=white"/>
-  </a>
-  <a href="https://tanstack.com/query" title="React Query">
-    <img src="https://img.shields.io/badge/React_Query-^5.76.1-ff4154?logo=reactquery&logoColor=white"/>
-  </a>
-  <a href="https://redux-toolkit.js.org" title="Redux Toolkit">
-    <img src="https://img.shields.io/badge/Redux_Toolkit-^2.8.1-764abc?logo=redux&logoColor=white"/>
-  </a>
-  <a href="https://reactrouter.com" title="React Router">
-    <img src="https://img.shields.io/badge/React_Router-^7.6.0-ca4245?logo=reactrouter&logoColor=white"/>
-  </a>
-  <a href="https://mui.com" title="Material-UI">
-    <img src="https://img.shields.io/badge/Material_UI-^7.1.0-007fff?logo=mui&logoColor=white"/>
-  </a>
-  <a href="https://react-hook-form.com" title="React Hook Form">
-    <img src="https://img.shields.io/badge/React_Hook_Form-^7.56.4-ec5990?logo=reacthookform&logoColor=white"/>
-  </a>
-  <a href="https://zod.dev" title="Zod">
-    <img src="https://img.shields.io/badge/Zod-^3.25.76-3e67b1?logo=zod&logoColor=white"/>
-  </a>
-  <a href="https://axios-http.com" title="Axios">
-    <img src="https://img.shields.io/badge/Axios-^1.9.0-5a29e4?logo=axios&logoColor=white"/>
-  </a>
-  <a href="https://eslint.org" title="ESLint">
-    <img src="https://img.shields.io/badge/ESLint-^9.25.0-4b32c3?logo=eslint&logoColor=white"/>
-  </a>
-  <a href="https://prettier.io" title="Prettier">
-    <img src="https://img.shields.io/badge/Prettier-3.38.3-F7B93E?logo=prettier&logoColor=white"/>
-  </a>
-</p>
+<div align="center">
+
+[![React](https://img.shields.io/badge/React-^19.1.0-61dafb?logo=react&logoColor=white)](https://reactjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-~5.8.3-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-^6.3.5-646cff?logo=vite&logoColor=white)](https://vitejs.dev)
+[![React Query](https://img.shields.io/badge/React_Query-^5.76.1-ff4154?logo=reactquery&logoColor=white)](https://tanstack.com/query)
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-^2.8.1-764abc?logo=redux&logoColor=white)](https://redux-toolkit.js.org)
+[![React Router](https://img.shields.io/badge/React_Router-^7.6.0-ca4245?logo=reactrouter&logoColor=white)](https://reactrouter.com)
+[![Material-UI](https://img.shields.io/badge/Material_UI-^7.1.0-007fff?logo=mui&logoColor=white)](https://mui.com)
+[![React Hook Form](https://img.shields.io/badge/React_Hook_Form-^7.56.4-ec5990?logo=reacthookform&logoColor=white)](https://react-hook-form.com)
+[![Zod](https://img.shields.io/badge/Zod-^3.25.76-3e67b1?logo=zod&logoColor=white)](https://zod.dev)
+[![Axios](https://img.shields.io/badge/Axios-^1.9.0-5a29e4?logo=axios&logoColor=white)](https://axios-http.com)
+[![ESLint](https://img.shields.io/badge/ESLint-^9.25.0-4b32c3?logo=eslint&logoColor=white)](https://eslint.org)
+[![Prettier](https://img.shields.io/badge/Prettier-3.38.3-F7B93E?logo=prettier&logoColor=white)](https://prettier.io)
+[![]()]()
+
+</div>
 
 ## 📑 <a name="table">Table of Contents</a>
 
