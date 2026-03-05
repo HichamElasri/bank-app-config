@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img src="./docs/images/e-bank-logo.png" width="400px" />
+  <img src="./assets/e-bank-logo.png" width="400px" />
 </p>
 <div align="center">
 
