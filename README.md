@@ -53,7 +53,7 @@ Also, the microservices use a service registry and a centralized configuration s
 
 ## <a name="architecture">🏗️ Architecture</a>
 
-<img src="./assets/diagram_arch.jpg" width="600px" />
+<img src="./assets/diagram_arch.jpg"  />
 
 ## <a name="features">✨ Features</a>
 
