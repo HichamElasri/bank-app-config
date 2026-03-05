@@ -58,7 +58,7 @@
 
 ## <a name="demo">🎥 Demo</a>
 
-![E-Bank Demo](./assets/demo-e-bank-1.5.gif)
+![E-Bank Demo](./assets/demo-e-bank-1.5_720.gif)
 
 ## <a name="features">✨ Features</a>
 
