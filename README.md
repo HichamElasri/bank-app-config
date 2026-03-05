@@ -38,8 +38,6 @@
 12. 🤝 [Contributing](#contributing)
 13. ✉️ [Contact](#contact)
 
----
-
 ## <a name="about-the-project">📌 About the project</a>
 
 **E-Bank (Backend)** is a Spring-based microservices project designed to manage banking customers, accounts and financial transactions.
@@ -53,13 +51,9 @@ Inter-service communication is implemented using a hybrid approach: asynchronous
 Monitoring and logging are handled using the ELK Stack, Prometheus, Zipkin and Grafana. These tools provide system visibility, performance tracking and request tracing across microservices.
 Also, the microservices use a service registry and a centralized configuration server to ensure discoverability and consistent configuration.
 
----
-
 ## <a name="architecture">🏗️ Architecture</a>
 
-<img src="./docs/images/diagram_arch.jpg" width="600px" />
-
----
+<img src="./assets/diagram_arch.jpg" width="600px" />
 
 ## <a name="features">✨ Features</a>
 
@@ -71,8 +65,6 @@ Also, the microservices use a service registry and a centralized configuration s
     - Bill payments.
     - Internal account transfers.
     - Fund withdrawals.
-
----
 
 ## <a name="tech-stack">🛠️ Tech Stack</a>
 
@@ -106,8 +98,6 @@ Also, the microservices use a service registry and a centralized configuration s
 - Prometheus, Zipkin & Grafana
 - ELK Stack
 
----
-
 ## <a name="project-structure">📁 Project Structure</a>
 
 ```
@@ -124,8 +114,6 @@ e-bank-backend/
 ├─ docker-compose.yml
 └─ README.md
 ```
-
----
 
 ## <a name="microservice-structure">🧩 Microservice Structure</a>
 
@@ -163,8 +151,6 @@ account-service/
 │ │ └─ AccountServiceApplication.java
 │ └─  test/
 ```
-
----
 
 ## <a name="quick-start">⚡ Quick Start</a>
 
@@ -259,8 +245,6 @@ mvn spring-boot:run -pl account-service
 mvn spring-boot:run -pl transaction-service
 ```
 
----
-
 ## <a name="api-documentation">📄 API Documentation</a>
 
 Once all microservices are running, the API Documentation is accessible through the links below:
@@ -270,8 +254,6 @@ Once all microservices are running, the API Documentation is accessible through 
 | Customer Service     | `http://localhost:5005/swagger-ui.html`  |
 | Account Service      | `http://localhost:5006/swagger-ui.html`  |
 | Transaction Service  | `http://localhost:5007/swagger-ui.html`  |
-
----
 
 ## <a name="api-endpoints">🌐 API Endpoints</a>
 
@@ -315,8 +297,6 @@ All E-Bank services are accessible through the API Gateway at `http://localhost:
 | POST   | `transaction-service/v1/transactions/{account_id}/withdraw-funds`  | Withdraw funds                | Yes                     |
 | POST   | `transaction-service/v1/transactions/{account_id}/make-payment`    | Make payment                  | Yes                     |
 | POST   | `transaction-service/v1/transactions/{account_id}/transfer-funds`  | Transfer funds                | Yes                     |
-
----
 
 ## <a name="tools-endpoints">🔧 Tools Endpoints</a>
 
