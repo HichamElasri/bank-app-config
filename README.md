@@ -154,9 +154,8 @@ npm run dev
 
 Once the development server is running, navigate to http://localhost:5173/auth/sign-in via your browser and authenticate using the credentials below:
 
-| Role  | Username | Password |
-| ----- | -------- | -------- |
-| Admin | admin    | admin    |
+- **Username**: admin
+- **Password**: admin
 
 ## <a name="contributing">🤝 Contributing</a>
 
