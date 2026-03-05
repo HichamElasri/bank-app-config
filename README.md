@@ -1,7 +1,8 @@
 <p align="center">
   <br />
-  <img src="./assets/e-bank-logo.png" width="400px" />
+  <img src="./assets/e-bank-logo.png" width="500px" />
 </p>
+
 <div align="center">
 
 [![React](https://img.shields.io/badge/React-^19.1.0-61dafb?logo=react&logoColor=white)](https://reactjs.org)
@@ -37,7 +38,6 @@
 
 ## <a name="demo">🎥 Demo</a>
 
-![E-Bank Demo](./assets/demo-e-bank-1.5_720.gif)
 ![E-Bank Demo](./assets/demo-e-bank-1.5.gif)
 
 ## <a name="features">✨ Features</a>
