@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img src="./src/assets/e-bank-logo.png" width="600px" />
+  <img src="./assets/e-bank-logo.png" width="600px" />
 </p>
 <p align="center">
   <a  href="https://reactjs.org" title="React">
